@@ -1,0 +1,54 @@
+/* PORTAL CSS */
+.portal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.portal .portalFrame{
+    display: block;
+    margin: 5% auto;
+    background-color: #FFF;
+    width: 400px;
+    border-radius: 5px;
+}
+.portal .portalFrame .portalFrame-logo{
+    width: 60px;
+    margin: 30px auto;
+    text-align: center;
+}
+.portal .portalFrame .portalFrame-logo img{
+    max-width: 100%;
+}
+.up-closebtn{
+    cursor: pointer;
+}
+.portalInput{
+    display: block;
+    padding: 5px 10px;
+    font-family: sertig;
+}
+.portalInputForm input[type=text]{
+    display: block;
+    padding: 8px 10px;
+    margin: 0 10px;
+    width: 90%;
+    border: 1px solid lightgrey;
+}
+.portalFrame-list{
+    display: block;
+    padding: 5px 10px;
+    list-style-type: none;
+    margin: 0;
+}
+.portalFrame-list li{
+    padding: 8px 12px;
+    text-align: left;
+    font-family: lato;
+    font-size: 14px;
+    border-bottom: 1px solid lightgrey;
+    display: block;
+    color: darkslategrey
+}

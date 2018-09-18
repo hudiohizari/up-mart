@@ -1,0 +1,45 @@
+/* FOOTER CSS */
+.footer{
+    border-top: 5px solid #3498db;
+}
+.up-footer-brand{
+    display: block;
+    font-size: 16px;
+    font-family: sertig;
+    padding: 8px;
+    text-align: center;
+}
+.up-footer-brand .icon{
+    font-size: 25px;
+}
+
+.up-footer-content{
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+.up-footer-content-title{
+    font-size: 16px;
+    font-family: sertig;
+    padding: 8px 0px;
+    text-align: left;
+}
+.up-footer-content-list{
+    display: block;
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.up-footer-content-list li {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.up-footer-content-list li a{
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    color: #2c3e50
+}
+.up-footer-content-list li a:hover{
+    color: #3498db;
+}

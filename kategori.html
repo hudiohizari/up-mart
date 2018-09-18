@@ -1,0 +1,522 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- META -->
+        <meta charset="utf-8">
+        <meta name="description" content="E-Commerce | Lapak Usaha Kecil">
+        <meta name="keywords" content="HTML, CSS, JAVASCRIPT, XML">
+        <meta name="author" content="ARROW SQUAD">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- TITLE -->
+        <title>E-Commerce | Lapak Usaha Kecil</title>
+        <!-- CSS -->
+        <link rel="icon" href="assets/logo/Logo_Without_Text.png">
+        <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link rel="stylesheet" href="css/navbar.css" type="text/css">
+        <link rel="stylesheet" href="css/banner.css" type="text/css">
+        <link rel="stylesheet" href="css/sidebar.css" type="text/css">
+        <link rel="stylesheet" href="css/jumbotron.css" type="text/css">
+        <link rel="stylesheet" href="css/content.css" type="text/css">
+        <link rel="stylesheet" href="css/footer.css" type="text/css">
+        <link rel="stylesheet" href="css/chat.css" type="text/css">
+        <link rel="stylesheet" href="css/portal.css" type="text/css">
+        <link rel="stylesheet" href="css/find.css" type="text/css">
+    </head>
+    <body>
+        <!-- BODY -->
+        <div class="up-main-wrapper">
+            <!-- TOP MENU -->
+            <!--- VIEW DESKTOP --->
+            <nav class="up-navbar-desktop up-desktop up-row">
+                <div class="up-container">
+                    <div class="up-left">
+                        <a href="#" onclick="location.assign('index.html')" class="up-brand">
+                            <img src="assets/logo/Logo_With_Text.png">
+                        </a>
+                    </div>
+                    <div class="up-right">
+                        <a href="#" onclick="portal('login')" class="up-list-item up-btn up-blue up-border up-border-blue">Masuk</a>
+                        <a href="#" onclick="portal('register')" class="up-list-item up-btn up-border up-border-blue up-text-blue">Daftar</a>
+                    </div>
+                    <div class="up-center">
+                        <form class="up-form">
+                            <input type="text" class="up-input up-search-bar up-text-black" placeholder="Apa yang anda cari hari ini ?">
+                            <span class="up-submit up-orange up-btn-search-bar up-blue-hover" onclick="location.assign('find.html')">
+                                <span class="fa fa-search"></span>
+                            </span>
+                        </form>
+                        <a href="#" class="up-bag up-dark-concrete" onclick="portal('shopBag')">
+                            <span class="fa fa-shopping-bag"></span> 
+                            <span class="up-badge">
+                                <b>2</b>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!--- VIEW MOBILE --->
+            <nav class="up-navbar-mobile up-mobile up-row up-blue">
+                <div class="up-container">
+                    <div class="up-left">
+                        <a href="#" class="up-btn up-list-item up-dark-blue-hover">
+                            <span class="fa fa-list"></span>
+                        </a>
+                    </div>
+                    <div class="up-right">
+                        <a href="#" class="up-btn up-list-item up-dark-blue-hover">
+                            <span class="fa fa-shopping-bag"></span>
+                        </a>
+                        <a href="#" class="up-btn up-list-item up-dark-blue-hover">
+                            <span class="fa fa-user-circle"></span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!-- TOP MENU -->
+            
+            <div class="up-margin-y-8"></div>
+            
+            <!-- MAIN BANNER -->
+            <div class="up-container up-desktop">
+                <div class="up-banner up-row up-banner-h up-orange">
+                    <div class="up-padding-16 up-banner-title">
+                        <b>UP MART Info</b>
+                    </div>
+                    <div class="up-banner-content up-padding-8">
+                        <span>
+                        Cicilan Tanpa Kartu Kredit Sudah Hadir Di UpMart!
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- MAIN BANNER -->
+            
+            <div class="up-margin-y-8"></div>
+            
+            <!-- MAIN HEADER -->
+            <div class="up-container up-row up-desktop">
+                <!-- SIDEBAR -->
+                <div class="up-col-3">
+                    <div class="up-sidebar up-sidebar-desktop">
+                        <div class="up-sidebar-title up-padding-y-8 up-padding-8">
+                            <span class="up-text-red">KATEGORI BARANG</span>
+                        </div>
+                        <a href="#" onclick="location.assign('kategori.html')" class="up-list-item up-red-hover">
+                            <span class="icon up-text-red fa fa-user-secret"></span>
+                            <span class="up-text-black">Fashion Pria</span>
+                        </a>
+                        <a href="#" onclick="location.assign('kategori.html')" class="up-list-item up-green-hover">
+                            <span class="icon up-text-green fa fa-female"></span>
+                            <span class="up-text-black">Fashion Wanita</span>
+                        </a>
+                        <a href="#" onclick="location.assign('kategori.html')" class="up-list-item up-purple-hover">
+                            <span class="icon up-text-purple fa fa-gavel"></span>
+                            <span class="up-text-black">Mainan Anak</span>
+                        </a>
+                        <a href="#" onclick="location.assign('kategori.html')" class="up-list-item up-sea-hover">
+                            <span class="icon up-text-sea fa fa-glass"></span>
+                            <span class="up-text-black">Perlengkapan Rumah Tangga</span>
+                        </a>
+                        <a href="#" onclick="location.assign('kategori.html')" class="up-list-item up-blue-hover">
+                            <span class="icon up-text-blue fa fa-paw"></span>
+                            <span class="up-text-black">Aksesoris</span>
+                        </a>
+                        <a href="#" onclick="location.assign('kategori.html')" class="up-list-item up-orange-hover">
+                            <span class="icon up-text-orange fa fa-asl-interpreting"></span>
+                            <span class="up-text-black">Kerajinan Tangan</span>
+                        </a>
+                        <a href="#" onclick="location.assign('kategori.html')" class="up-list-item up-concrete-hover">
+                            <span class="icon up-text-concrete fa fa-briefcase"></span>
+                            <span class="up-text-black">Tas Perbelanjaan</span>
+                        </a>
+                        
+                        <div class="tail"></div>
+                    </div>
+                </div>
+                <!-- SIDEBAR -->
+                <!-- MAIN JUMBOTRON -->
+                <div class="up-col-9">
+                    <div class="up-padding-left">
+                        <div class="up-row">
+                            <div class="up-col-7">
+                                <div class="up-bannerVideo">
+                                    <div class="imageView" style="background-image: url(assets/bg/bannerImage.jpg)"></div>
+                                </div>
+                            </div>
+                            <div class="up-col-5 up-red">
+                                <div class="up-bannerText">
+                                    <h2>UP MART HISTERIA</h2>
+                                    <h1 class="up-orange">CASHBACK<br>
+                                    100%</h1>
+                                    <a href="#" class="up-btn up-btn-banner up-dark-yellow">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="up-row up-find">
+                            <div class="up-col-3">
+                                <div class='up-find-content' onclick="location.assign('viewProduk.html')">
+                                    <div class="up-padding-8">
+                                        <div class="imageView" style="background-image: url(assets/content/baju2.jpg)"></div>
+                                        <div class="up-find-brand up-text-dark-black">
+                                            <span>Baju garis grey biru</span>
+                                        </div>
+                                        <div class="up-find-text up-text-orange">
+                                            <span>Rp. 150.000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="up-col-3">
+                                <div class='up-find-content' onclick="location.assign('viewProduk.html')">
+                                    <div class="up-padding-8">
+                                        <div class="imageView" style="background-image: url(assets/content/boneka5.jpg)"></div>
+                                        <div class="up-find-brand up-text-dark-black">
+                                            <span>Baju garis grey biru</span>
+                                        </div>
+                                        <div class="up-find-text up-text-orange">
+                                            <span>Rp. 150.000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="up-col-3">
+                                <div class='up-find-content' onclick="location.assign('viewProduk.html')">
+                                    <div class="up-padding-8">
+                                        <div class="imageView" style="background-image: url(assets/content/baju1.jpg)"></div>
+                                        <div class="up-find-brand up-text-dark-black">
+                                            <span>Baju garis grey biru</span>
+                                        </div>
+                                        <div class="up-find-text up-text-orange">
+                                            <span>Rp. 150.000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="up-col-3">
+                                <div class='up-find-content' onclick="location.assign('viewProduk.html')">
+                                    <div class="up-padding-8">
+                                        <div class="imageView" style="background-image: url(assets/content/baju3.jpg)"></div>
+                                        <div class="up-find-brand up-text-dark-black">
+                                            <span>Baju garis grey biru</span>
+                                        </div>
+                                        <div class="up-find-text up-text-orange">
+                                            <span>Rp. 150.000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="up-col-3">
+                                <div class='up-find-content' onclick="location.assign('viewProduk.html')">
+                                    <div class="up-padding-8">
+                                        <div class="imageView" style="background-image: url(assets/content/baju4.jpg)"></div>
+                                        <div class="up-find-brand up-text-dark-black">
+                                            <span>Baju garis grey biru</span>
+                                        </div>
+                                        <div class="up-find-text up-text-orange">
+                                            <span>Rp. 150.000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="up-col-3">
+                                <div class='up-find-content' onclick="location.assign('viewProduk.html')">
+                                    <div class="up-padding-8">
+                                        <div class="imageView" style="background-image: url(assets/content/baju5.jpg)"></div>
+                                        <div class="up-find-brand up-text-dark-black">
+                                            <span>Baju garis grey biru</span>
+                                        </div>
+                                        <div class="up-find-text up-text-orange">
+                                            <span>Rp. 150.000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="up-col-3">
+                                <div class='up-find-content' onclick="location.assign('viewProduk.html')">
+                                    <div class="up-padding-8">
+                                        <div class="imageView" style="background-image: url(assets/content/baju6.jpg)"></div>
+                                        <div class="up-find-brand up-text-dark-black">
+                                            <span>Baju garis grey biru</span>
+                                        </div>
+                                        <div class="up-find-text up-text-orange">
+                                            <span>Rp. 150.000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="up-col-3">
+                                <div class='up-find-content' onclick="location.assign('viewProduk.html')">
+                                    <div class="up-padding-8">
+                                        <div class="imageView" style="background-image: url(assets/content/boneka1.jpg)"></div>
+                                        <div class="up-find-brand up-text-dark-black">
+                                            <span>Baju garis grey biru</span>
+                                        </div>
+                                        <div class="up-find-text up-text-orange">
+                                            <span>Rp. 150.000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="up-row">
+                            <div class="up-center">
+                                <div class='up-pagination'>
+                                    <a href="" class="up-blue up-text-grey">1</a>
+                                    <a href="" class='up-text-dark-black'>2</a>
+                                    <a href="" class='up-text-dark-black'>3</a>
+                                    <a href="" class='up-text-dark-black'>4</a>
+                                    <a href="" class='up-text-dark-black'>5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- MAIN JUMBOTRON -->
+            </div>
+            
+            <div class="up-margin-y-8"></div>
+            
+            <!-- FOOTER -->
+            <footer class="footer up-dark-grey up-desktop">
+                <header class="up-container">
+                    <div class="up-padding-16">
+                        <div class="up-row">
+                            <div class="up-col-3">
+                                <div class="up-footer-brand up-text-dark-black">
+                                    <span class="icon fa fa-automobile"></span>
+                                    <span>PENGIRIMAN TEPAT WAKTU</span>
+                                </div>
+                            </div>
+                            <div class="up-col-3">
+                                <div class="up-footer-brand up-text-dark-black">
+                                    <span class="icon fa fa-check-circle"></span>
+                                    <span>100% KUALITAS TERJAMIN</span>
+                                </div>
+                            </div>
+                            <div class="up-col-3">
+                                <div class="up-footer-brand up-text-dark-black">
+                                    <span class="icon fa fa-handshake-o"></span>
+                                    <span>BERAGAM CARA PEMBAYARAN</span>
+                                </div>
+                            </div>
+                            <div class="up-col-3">
+                                <div class="up-footer-brand up-text-dark-black">
+                                    <span class="icon fa fa-money"></span>
+                                    <span>GRATIS BIAYA PENGIRIMAN</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="up-container">
+                    <div class="up-row up-footer-content">
+                        <div class="up-col-3">
+                            <div class="up-padding-8">
+                                <div class="up-footer-content-title">
+                                    <span class="up-text-dark-black">HELP</span>
+                                </div>
+                                <ul class="up-footer-content-list">
+                                    <li><a href="#">Pembayaran</a></li>
+                                    <li><a href="#">Pengiriman</a></li>
+                                    <li><a href="#">Status Pesanan</a></li>
+                                    <li><a href="#">Pengembalian Produk</a></li>
+                                    <li><a href="#">UP MART Rewards</a></li>
+                                    <li><a href="#">Cara Belanja</a></li>
+                                    <li><a href="#">Hubungi Kami</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="up-col-3">
+                            <div class="up-padding-8">
+                                <div class="up-footer-content-title">
+                                    <span class="up-text-dark-black">COSTUMER CARE</span>
+                                </div>
+                                <ul class="up-footer-content-list">
+                                    <li><a href="#">Buka 24 jam setiap hari</a></li>
+                                    <li><a href="#"><span class="fa fa-phone"></span>  082188432070</a></li>
+                                    <li><a href="#"><span class="fa fa-envelope"></span>  upmart@gmail.com</a></li>
+                                    <br>
+                                    <li><a href=""><span class="up-btn up-dark-black">Saya Butuh Bantuan</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="up-col-3">
+                            <div class="up-padding-8">
+                                <div class="up-footer-content-title">
+                                    <span class="up-text-dark-black">MEDIA PARTNER</span>
+                                </div>
+                                <ul class="up-footer-content-list">
+                                    <li><a href="#">Vanila Bag</a></li>
+                                    <li><a href="#">Jual di UP MART</a></li>
+                                    <li><a href="#">Fashion Trend</a></li>
+                                    <li><a href="#">Zaman Now</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="up-col-3">
+                            <div class="up-padding-8">
+                                <div class="up-footer-content-title">
+                                    <span class="up-text-dark-black">FOLLOW US</span>
+                                </div>
+                                <ul class="up-footer-content-list">
+                                    <li><a href="#"><span class="fa fa-facebook-official"></span> Kunjungi Facebook</a></li>
+                                    <li><a href="#"><span class="fa fa-google-plus"></span> Kunjungi Google Plus</a></li>
+                                    <li><a href="#"><span class="fa fa-telegram"></span> Kunjungi Telegram</a></li>
+                                    <li><a href="#"><span class="fa fa-twitter"></span> Kunjungi Twitter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- FOOTER -->
+        </div>
+        
+        <!-- LOGIN & DAFTAR -->
+        <div class="portal up-hide">
+            <div class="portalFrame" id="login">
+                <div class="up-padding-8 up-padding-y-16">
+                    <span class="up-btn up-right up-text-red">
+                        <i class='fa fa-times up-closebtn' onclick="portalHide()"></i>
+                    </span>
+                    <div class="portalFrame-logo">
+                        <img src="assets/logo/Logo_Without_Text.png">
+                    </div>
+                    <form class="portalInputForm">
+                        <div class="up-row up-text-dark-grey" style="width:80%; margin: 0 auto">
+                            <div class="portalInput">
+                                <span class="fa fa-user"></span>
+                                <span>Username / E-mail</span>
+                            </div>
+                            <input type='text'>
+                        </div>
+                        <div class="up-row up-text-dark-grey" style="width:80%; margin: 0 auto">
+                            <div class="portalInput">
+                                <span class="fa fa-lock"></span>
+                                <span>Password</span>
+                            </div>
+                            <input type='text'>
+                        </div>
+                        <br>
+                        <div class='up-row'>
+                            <div class="up-center">
+                                <span class='up-btn up-blue'>
+                                    Masuk <i class="fa fa-sign-in"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <br><br>
+                    </form>
+                </div>
+            </div>
+            <div class="portalFrame" id="register">
+                <div class="up-padding-8 up-padding-y-16">
+                    <span class="up-btn up-right up-text-red">
+                        <i class='fa fa-times up-closebtn' onclick="portalHide()"></i>
+                    </span>
+                    <div class="portalFrame-logo">
+                        <img src="assets/logo/Logo_Without_Text.png">
+                    </div>
+                    <form class="portalInputForm">
+                        <div class="up-row up-text-dark-grey" style="width:80%; margin: 0 auto">
+                            <div class="portalInput">
+                                <span class="fa fa-user"></span>
+                                <span>Username</span>
+                            </div>
+                            <input type='text'>
+                        </div>
+                        <div class="up-row up-text-dark-grey" style="width:80%; margin: 0 auto">
+                            <div class="portalInput">
+                                <span class="fa fa-envelope"></span>
+                                <span>E-mail</span>
+                            </div>
+                            <input type='text'>
+                        </div>
+                        <div class="up-row up-text-dark-grey" style="width:80%; margin: 0 auto">
+                            <div class="portalInput">
+                                <span class="fa fa-lock"></span>
+                                <span>Password</span>
+                            </div>
+                            <input type='text'>
+                        </div>
+                        <br>
+                        <div class='up-row'>
+                            <div class="up-center">
+                                <span class='up-btn up-blue'>
+                                    Daftar <i class="fa fa-send"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <br><br>
+                    </form>
+                </div>
+            </div>
+            <div class="portalFrame" id="shopBag">
+                <div class="up-padding-8 up-padding-y-16">
+                    <span class="up-btn up-right up-text-red">
+                        <i class='fa fa-times up-closebtn' onclick="portalHide()"></i>
+                    </span>
+                    <div class="portalFrame-logo">
+                        <img src="assets/logo/Logo_Without_Text.png">
+                    </div>
+                    <ul class="portalFrame-list">
+                        <li>Baju wkwkwk (1)</li>
+                        <li>Boneka berbie (2)</li>
+                        <li>Total : <i class="up-text-orange">Rp.300.000</i></li>
+                    </ul>
+                    <div class="portalFrame-list up-row">
+                        <div class="up-right">
+                            <div class="up-padding-y-8">
+                                <span class="up-btn up-blue"><i class="fa fa-print"></i> Cetak</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- LOGIN & DAFTAR -->
+        
+        <!-- CHAT FEATURE -->
+        <div class="up-chat up-desktop">
+            <!-- BUTTON SHOW -->
+            <div class="up-padding-16 up-padding-y-16">
+                <div class="up-show-box-button up-blue" id="chatButton" onclick="chatBox()">
+                    <div class="up-center">
+                        <span class="fa fa-comments"></span>
+                        <span>Perlu Bantuan ?</span>
+                    </div>
+                </div>
+                <div class="up-show-box up-blue up-hide" id="chatBox">
+                    <header class="up-row">
+                        <div class="up-left">
+                            <div class="up-box-title">
+                                <span>Layanan Konsultasi 24 jam</span>
+                            </div>
+                        </div>
+                        <div class="up-right">
+                            <div class="up-hide-box-button" onclick="chatButton()">
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="up-row">
+                        <div class="up-box-dialog">
+                            <!-- CODE BOX HERE -->
+                        </div>
+                        <div class="up-box-form">
+                            <input type="text" placeholder="Ketik disini">
+                            <span class="up-btn up-orange">
+                                <i class="fa fa-send"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SCRIPT -->
+        <script src="js/chatbox.js" type="text/javascript"></script>
+        <script src="js/portal.js" type="text/javascript"></script>
+    </body>
+</html>

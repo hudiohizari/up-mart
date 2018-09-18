@@ -1,0 +1,71 @@
+/* NAVBAR */
+.up-navbar-desktop, .up-navbar-mobile{
+    padding: 0px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 3px rgba(0,0,0,.2);
+    padding: 8px 0px;
+}
+.up-navbar-desktop .up-brand, .up-navbar-mobile .up-brand{
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: "track";
+}
+.up-navbar-desktop .up-brand{
+    width: 120px;
+}
+.up-navbar-mobile .up-brand{
+    width: 22px;
+    margin-left: 10px;
+    margin-top: 1;
+}
+.up-navbar-desktop .up-brand img, .up-navbar-mobile .up-brand img{
+    max-width: 100%;
+}
+/* NAVBAR DESKTOP */
+.up-navbar-desktop{
+    background-image: url(../assets/bg/navbar.jpg);
+    background-repeat: repeat;
+    background-position: top center;
+    padding-top: 25px;
+}
+.up-navbar-desktop .up-search-bar{
+    width: 500px;
+    border: 1px solid rgba(0,0,0, .2);
+    padding: 10px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.up-navbar-desktop .up-search-bar::selection{
+    background-color: #e67e22;
+    color: #FFF;
+}
+.up-navbar-desktop .up-btn-search-bar{
+    padding: 7px 22px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 1px solid rgba(0,0,0, .2);
+    cursor: pointer;
+}
+.up-navbar-desktop .up-bag{
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 18px;
+    padding: 7px 12px;
+    border-radius: 4px;
+}
+.up-navbar-desktop .up-bag .up-badge b{
+    font-size: 16px;
+}
+.up-navbar-desktop .up-list-item{
+    display: inline-block;
+    border-radius: 4px;
+}
+/* NAVBAR MOBILE */
+.up-navbar-mobile .up-list-item{
+    font-size: 17px;
+    color: #FFF;
+    margin-top: 1;
+}
+
+/* SHOPPING BAG */

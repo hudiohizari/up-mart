@@ -1,0 +1,51 @@
+/* PRODUK CSS */
+.up-produk-title{
+    font-size: 30px;
+    font-family: lato;
+}
+.imageViewProduk{
+    display: block;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+}
+.produkMenu{
+    display: block;
+}
+.produkMenu a{
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: sertig;
+    display: inline-block;
+}
+.produkFrame{
+    margin-top: 10px;
+    display: block;
+    padding: 16px 16px;
+}
+.produkFrameView{
+    padding: 10px;
+    background: #FFF;
+}
+.produkFrameView .produkFrameView-title{
+    font-size: 16px;
+    font-family: sertig;
+}
+.produkFrameView .produkFrameView-text{
+    font-size: 25px;
+    font-family: track;
+}
+.produkFrameView-form{
+    padding: 8px 0px;
+}
+.produkFrameView-form input[type=number]{
+    width: 80%;
+    padding: 7px 10px;
+    border: 1px solid lightgrey;
+}
+.imageViewTrusted{
+    display: block
+}
+.imageViewTrusted img{
+    max-width: 100%;
+}

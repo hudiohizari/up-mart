@@ -1,0 +1,58 @@
+/* CONTENT CSS */
+.up-top-rate{
+    box-shadow: 0px 1px 1px rgba(0,0,0, .3);
+}
+.up-top-rate .up-top-rate-title{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.up-top-rate-banner{
+    height: 250px;
+    box-shadow: 2px 0px 2px rgba(0,0,0,0.9);
+    background-image: url("../assets/bg/bannerText.png");
+    background-size: cover;
+}
+.up-top-rate-banner h2{
+    display: block;
+    text-align: center;
+    font-family: "lato";
+    font-size: 30px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.up-top-rate-banner h1{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto 30px auto;
+    padding: 20px 0px;
+}
+.up-top-rate-content{
+    box-shadow: 0px -1px 2px rgba(0,0,0, .2);
+    height: 240px;
+    cursor: pointer;
+}
+.up-top-rate-content .imageView{
+    display: block;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+.up-top-rate-content .title{
+    display: block;
+    font-size: 15px;
+    font-family: lato;
+    text-align: center;
+    padding: 8px;
+    font-weight: 700
+}
+.up-top-rate-content .textView{
+    display: block;
+    font-size: 18px;
+    font-family: track;
+    font-weight: 700;
+    text-align: center;
+}

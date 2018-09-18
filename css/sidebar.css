@@ -1,0 +1,28 @@
+/* SIDEBAR */
+.up-sidebar{
+    display: block;
+    position: relative;
+}
+.up-sidebar-desktop{
+    box-shadow: 0px 1px 1px rgba(0,0,0, .3);
+}
+.up-sidebar-desktop .up-sidebar-title{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.up-sidebar-desktop .up-list-item{
+    display: block;
+    font-size: 14.1px;
+    padding: 8px 8px;
+    text-overflow: ellipsis;
+}
+.up-sidebar-desktop .icon{
+    font-size: 20px;    
+    margin: 0px 8px 0px 4px;
+}
+.up-sidebar-desktop .tail{
+    display: block;
+    padding: 5px 8px;
+    border-top: 1px solid rgba(0,0,0, .1)
+}
